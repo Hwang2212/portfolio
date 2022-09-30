@@ -55,8 +55,10 @@ const SocialLinks = () => {
             <ul>
 
             {links.map(({id, child, href, style, download})=> (
-                <li key={id}  className={'flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-r from-pink-500 to-purple-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300' + ' ' + style}>
-                    <a href={href} download={download} target="_blank" className='flex justify-between items-center w-full text-white'>
+                
+                <li key={id}  className={`flex justify-between items-center w-40 h-14 px-4 bg-gradient-to-r from-pink-500 to-purple-500 ml-[-100px] hover:rounded-md hover:ml-[-10px] duration-300 ${style}`}>
+                    
+                    <a href={href} download={download} target="_blank" rel="noreferrer" className='flex justify-between items-center w-full text-white'>
                         {child}
                     </a>
                 </li>
