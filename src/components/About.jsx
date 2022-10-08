@@ -9,11 +9,11 @@ const About = () => {
                 </div>
 
                 <p className='text-xl mt-20 '>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et est voluptas deserunt debitis. Optio commodi praesentium consequatur, sit explicabo quasi.
+                    As an Actuarial Science graduate, I've found a passion in programming during my studies, especially during my Internship. Henceforth, I've self-learned technologies and also participated in AirAsia Academy's Software Engineering Bootcamp.
                 </p>
                 <br />
-                <p className='text-xl'>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati itaque aperiam aliquam assumenda, veritatis reprehenderit, ipsum nam harum dicta maxime amet ut voluptatum distinctio minus est delectus exercitationem vel reiciendis ab sequi deserunt? Vitae facere rem ipsa ducimus cupiditate eligendi quas, officia dignissimos tempora, sed ipsam neque inventore obcaecati adipisci.</p>
+                <p className='text-xl mb-20'>
+                    I have a good understanding of REST API's, Database Management, Data Analytics and Predictive Modelling. I'm also equipped with some basic frontend knowledge on Flutter, Javascript, HTML, CSS and React. Scroll down to see what I've done!</p>
 
             </div>
 
