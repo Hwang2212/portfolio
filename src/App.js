@@ -3,7 +3,8 @@ import NavBar from "./components/NavBar";
 import SocialLinks from "./components/Social";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
-import Experience from "./components/Experience"
+// import Experience from "./components/Experience"
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      <Experience />
+      {/* <Experience /> */}
+      <Contact />
       <SocialLinks/>
     </div>
   );
